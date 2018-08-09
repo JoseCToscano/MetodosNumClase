@@ -1,0 +1,11 @@
+"""
+Create a function that takes a list and a string as arguments and return the index of the string.
+"""
+
+def find_index(lst, str):
+	a=''
+	for i in range(len(lst)):
+		if lst[i] == str:		
+			a=lst.index(lst[i])
+	return a
+	
