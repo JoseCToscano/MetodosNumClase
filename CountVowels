@@ -1,0 +1,18 @@
+"""
+Create a function that takes a string and returns the number (count) of vowels contained within it.
+""""
+
+def count_vowels(txt):
+	count=0
+	count += txt.count('a')
+	count += txt.count('e')
+	count += txt.count('i')
+	count += txt.count('o')
+	count += txt.count('u')
+	count += txt.count('A')
+	count += txt.count('E')
+	count += txt.count('I')
+	count += txt.count('O')
+	count += txt.count('U')
+	
+	return count
