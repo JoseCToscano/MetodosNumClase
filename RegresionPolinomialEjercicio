@@ -148,6 +148,8 @@ y2 = evalua(x2,coef)
 plt.plot(x2,y2)
 plt.show()
 
-ynueva = 0
-ynueva = evalua([12],coef)
-print("El rendimiento con 12m^3 es: ", ynueva)
+y3 = 0
+y3 = evalua([12],coef)
+print("El rendimiento con 12m^3 es: ", y3)
+
+#El rendimiento con 12m^3 es:  [4.287500000001671]
